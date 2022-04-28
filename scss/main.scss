@@ -1,0 +1,232 @@
+@import "normalize";
+/* ---------- шрифты ---------- */
+/* montserrat-alternates-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/montserrat-alternates-v16-latin_cyrillic-regular.woff2') format('woff2')
+}
+ 
+/* montserrat-alternates-500 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/montserrat-alternates-v16-latin_cyrillic-500.woff2') format('woff2')
+}
+
+/* montserrat-alternates-700 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('../fonts/montserrat-alternates-v16-latin_cyrillic-700.woff2') format('woff2')
+}
+
+/* montserrat-alternates-800 - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+        url('../fonts/montserrat-alternates-v16-latin_cyrillic-800.woff2') format('woff2')
+}
+/* ---------- базовые стили ---------- */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #000000;
+    font-weight: 400;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a,
+button {
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* ---------- шапка сайта ---------- */
+.header {}
+
+.header__logo {}
+
+.header__logo-img {}
+
+.header__logo-descr {}
+
+.header__social-list {}
+
+.header__social-item {}
+
+.header__social-link {}
+
+.header__tel {}
+
+.header__btn {}
+
+.header__nav {}
+
+.header__nav-list {}
+
+.header__nav-item {}
+
+.header__nav-link {}
+
+/* ---------- первый экран ---------- */
+.first-scr {}
+
+.first-scr__title {}
+
+.first-scr__subtitle {}
+
+.first-scr__btn {}
+
+.first-scr__offer {}
+
+/* ---------- преимущества ---------- */
+.advantages {}
+
+.advantages__title {}
+
+.advantages__list {}
+
+.advantages__item {}
+
+.advantages__icon {}
+
+.advantages__name {}
+
+.advantages__details {}
+
+/* ---------- расписание ---------- */
+.trips {}
+
+.trips__title {}
+
+.trips__subtitle {}
+
+.trips__card-list {}
+
+.trips__card-item {}
+
+.trips__route-name {}
+
+.trips__address {}
+
+.trips__photo {}
+
+.trips__time-list {}
+
+.trips__time-item {}
+
+.trips__time-label {}
+
+.trips__time-data {}
+
+/* ---------- автомобили ---------- */
+.cars {}
+
+.cars__title {}
+
+.cars__list {}
+
+.cars__item {}
+
+.cars__photo {}
+
+.cars__model {}
+
+.cars__descr {}
+
+/* ---------- приглашение на работу ---------- */
+.work {}
+
+.work__title {}
+
+.work__subtitle {}
+
+.work__list {}
+
+.work__item {}
+
+/* ---------- отзывы ---------- */
+.reviews {}
+
+.reviews__title {}
+
+.reviews__list {}
+
+.reviews__item {}
+
+.reviews__wrap {}
+
+.reviews__author {}
+
+.reviews__cite {}
+
+.reviews__photo {}
+
+/* ---------- подвал ---------- */
+.footer {}
+
+.footer__logo {}
+
+.footer__logo-img {}
+
+.footer__logo-decr {}
+
+.footer__proposal {}
+
+.footer__bonus {}
+
+.footer__title {}
+
+.footer__menu-list {}
+
+.footer__menu-item {}
+
+.footer__menu-link {}
+
+.footer__contacts-list {}
+
+.footer__contacts-item {}
+
+.footer__contacts-link {}
+
+.footer__copy {}
+
+.footer__social-list {}
+
+.footer__social-item {}
+
+.footer__social-link {}

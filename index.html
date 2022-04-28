@@ -1,42 +1,336 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" title="Это всплывающая подсказка!">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Savchenko Yuriy" />
-  
-  <link rel="stylesheet" href="css/main.css">
-  <style></style>
-  <title>Тестовая страница</title>
-  <meta name="description" content="Описание тестовой страницы">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+
+  <link rel="stylesheet" href="./css/main.min.css">
+
+  <base href="/" target="_blank">
+  <meta name="author" content="humans.txt">
+
+  <title>Пегас-трансфер</title>
+  <meta name="description" content="Ежедневные совместные поездки из Краснодара в Пятигорск и обратно. За 5 часов. Цена от 750 рублей">
 </head>
 
-<body class="body home">
+<body class="body">
   <header class="header">
-    <div class="wrapper">
-      <div class="container">
-        <h2 class="title">Заголовок страницы в первом экране</h2>
-      </div>
-    </div>
+    <figure class="header__logo">
+      <img class="header__logo-img" src="./img/logo/1.svg" alt="логотип компании" width="190" height="77">
+      <figcaption class="header__logo-descr">Комфортабельный трансфер Краснодар-Пятигорск-Краснодар</figcaption>
+    </figure>
+
+    <ul class="header__social-list">
+      <li class="header__social-item">
+        <a class="header__social-link" href="#">Viber</a>
+      </li>
+      <li class="header__social-item">
+        <a class="header__social-link" href="#">Whatsapp</a>
+      </li>
+      <li class="header__social-item">
+        <a class="header__social-link" href="#">Telegram</a>
+      </li>
+      <li class="header__social-item">
+        <a class="header__social-link" href="#">Instagram</a>
+      </li>
+    </ul>
+
+    <a class="header__tel" href="tel:89180896009">8 (918) 089 60 09</a>
+    <a class="header__btn" href="#">Заказать звонок</a>
+
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Главная</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Расписание</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Автопарк</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Трудоустройство</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Отзывы</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Контакты</a>
+        </li>
+      </ul>
+
+    </nav>
   </header>
   <main class="main">
-    <section class="first-scr">
-      <div class="wrapper">
-        <div class="container">
-        </div>
-      </div>
+    <section class="first-scr main">
+      <header class="first-scr__title-group">
+        <h1 class="first-scr__title">Совместные поездки в Краснодар и Пятигорск</h1>
+        <p class="first-scr__subtitle">Ежедневные поездки на комфортабельном автомобиле по самым низким ценам
+        </p>
+      </header>
+
+
+      <a class="first-scr__btn" href="#">Выбрать поездку</a>
+      <p class="first-scr__offer">Забронируйте поездку сейчас и получите скидку 16%</p>
     </section>
+
+    <section class="advantages">
+      <h2 class="advantages__title">6 причин воспользоваться нашим трансфером</h2>
+      <ul class="advantages__list">
+
+        <li class="advantages__details"><strong class="advantages__name">На 45% доступней</strong> по сравнению с
+          автобусами и электричками</li>
+
+        <li class="advantages__details"><strong class="advantages__name">Комфортно</strong> В комфорте, с остановками на
+          перекус и в туалет</li>
+
+        <li class="advantages__details"><strong class="advantages__name">Надёжно</strong> Забронированная поездка 100%
+          состоится</li>
+
+        <li class="advantages__details"><strong class="advantages__name">Безопасно</strong> Профессиональные водители и
+          проверенный маршрут</li>
+
+        <li class="advantages__details"><strong class="advantages__name">Весело и интересно</strong> Можем обсудить
+          интересные темы и поддержать разговор</li>
+
+        <li class="advantages__details"><strong class="advantages__name">В дорогу без очередей</strong> От заявки на
+          сайте
+          до места назначения всего два клика</li>
+      </ul>
+    </section>
+
+    <section class="trips">
+      <hgroup class="trips__title-group">
+        <h2 class="trips__title">Расписание поездок</h2>
+        <h3 class="trips__subtitle">Две поездки осуществляются ежедневно!</h3>
+      </hgroup>
+
+      <article class="trips__card-item">
+        <h3 class="trips__route-name">Пятигорск - Краснодар</h3>
+        <p class="trips__address">Место отправления: Макдоналдс (проспект Калинина, 2)</p>
+        <img class="trips__photo" src="./img/meeting-place/1.jpg" alt="место встречи с водителем" width="640"
+          height="400">
+        <ul class="trips__time-list">
+          <li class="trips__time-item">
+            <span class="trips__time-label">Время отправления:</span>
+            <span class="trips__time-data">7:00</span></li>
+          <li class="trips__time-item">
+            <span class="trips__time-label">Время прибытия:</span>
+            <span class="trips__time-data">13:00</span>
+          </li>
+        </ul>
+      </article>
+      <article class="trips__card-item">
+        <h3 class="trips__route-name">Краснодар - Пятигорск</h3>
+        <p class="trips__address">Место отправления: ЖД вокзал Краснодар-1 (Привокзальная площадь)</p>
+        <img class="trips__photo" src="./img/meeting-place/2.jpg" alt="место встречи с водителем" width="640"
+          height="400">
+        <ul class="trips__time-list">
+          <li class="trips__time-item">
+            <span class="trips__time-label">Время отправления:</span>
+            <span class="trips__time-data">15:00</span></li>
+          <li class="trips__time-item">
+            <span class="trips__time-label">Время прибытия:</span>
+            <span class="trips__time-data">21:00</span>
+          </li>
+        </ul>
+      </article>
+
+    </section>
+
+    <section class="cars">
+      <h2 class="cars__title">Наши автомобили</h2>
+
+      <article class="cars__item">
+        <img class="cars__photo" src="./img/cars/1.jpg" alt="фото автомобиля" width="656" height="480">
+        <h3 class="cars__model">Kia Carnival</h3>
+        <p class="cars__descr">Этот микроавтобус одновременно относится к категории микроавтобусов и
+          кроссвэнов. В салоне
+          оборудовано 7 мест для пассажиров.
+          Мощный двигатель объёмом в 3.5 литра работают в паре с 8-ступенчатой автоматической коробкой
+          передач. За безопасность отвечают интеллектуальные системы и ассистенты.
+          Моргнуть не успеете, как доедем до пункта назначения.</p>
+      </article>
+      <article class="cars__item">
+        <img class="cars__photo" src="./img/cars/2.jpg" alt="фото автомобиля" width="656" height="480">
+        <h3 class="cars__model">Volkswagen Multivan</h3>
+        <p class="cars__descr">Почти что бэт-мобиль! Современное оснащение – присутствует цифровая приборная
+          панель, адаптивный
+          круиз-контроль, парковочный автопилот и много других технологий.
+          В автомобиле очень хороший уровень акустического комфорта. Это было достигнуто благодаря
+          применению звукоизолирующих материалов.
+          В пути вы сможете выспаться и не переживать о безопасности.</p>
+      </article>
+      <article class="cars__item">
+        <img class="cars__photo" src="./img/cars/3.jpg" alt="фото автомобиля" width="656" height="480">
+        <h3 class="cars__model">Peugeot Traveller I Long</h3>
+        <p class="cars__descr">Микроавтобус созданный для путешествий всей семьёй. Машина предоставляет
+          большое пространство для
+          комфорта и приятных впечатлений от каждой поездки.
+          Машина обладает современным технологичным оснащением. Для авто добавлена система автоматического
+          управления светом фар, проекционный дисплей и ассистенты безопасности.
+        </p>
+      </article>
+      <article class="cars__item">
+        <img class="cars__photo" src="./img/cars/4.jpg" alt="фото автомобиля" width="656" height="480">
+        <h3 class="cars__model">Hyundai H-1</h3>
+        <p class="cars__descr">Высокий уровень безопасности обеспечивается современными технологиями – ESP
+          следит за курсовой
+          устойчивостью, а другие ассистенты помогают в процессе движения на средней скорости.
+          Радиус поворота этого транспорта составляет 5.6 метров, что даёт возможность легко
+          разворачиваться на узкой улице.
+          Для задних и передних колёс установлены большие и мощные дисковые тормоза, которые обеспечивают
+          стабильное снижение скорости.
+          Салон радует вместительностью – для посадки доступно 8 мягких и удобных мест.</p>
+      </article>
+
+    </section>
+
+    <section class="work">
+      <h2 class="work__title">Приглашаем опытных водителей на работу</h2>
+      <span class="work__subtitle">Требования к водителям:</span>
+      <ul class="work__list">
+        <li class="work__item">Наличие автомобиля Lada Largus, либо любой другой автомобиль
+          с посадочными местами для пассажиров от пяти и более.</li>
+        <li class="work__item">Отличное состояние автомобиля.</li>
+        <li class="work__item">Опыт вождения от 3х лет. Прописка в г. Краснодар или в городах КМВ.</li>
+        <li class="work__item">Гарантируем высокую заработную плату, при условии усердия
+          и профессионализма с вашей стороны.</li>
+      </ul>
+    </section>
+
+    <section class="reviews">
+      <h2 class="reviews__title">Отзывы наших попутчиков</h2>
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <figure class="reviews__wrap">
+            <img src="./img/passengers/1.jpg" alt="фото пассажира" width="205" height="205">
+            <p class="reviews__author">Юрий, Веб-разработчик из студии “Крыжовник”.</p>
+            <blockquote class="reviews__cite">“Об этом сервисе я узнал от своего соседа, который тоже
+              частенько мотается к маме в
+              Пятигорск.
+              Я приятно удивлён ценой. В поездке часто останавливаемся, если есть необходимость, иногда
+              болтаем.
+              Если вы до сих пор переплачиваете за поездки на электричке или автобусах - рекомендую Пегас!
+              Они
+              классные!!”</blockquote>
+          </figure>
+        </li>
+        <li class="reviews__item">
+          <figure class="reviews__wrap">
+            <img class="reviews__photo" src="./img/passengers/2.jpg" alt="фото пассажира" width="205" height="205">
+            <p class="reviews__author">Диана Санчес, Бариста из кофейни “Сыбракс”.</p>
+            <blockquote class="reviews__cite">“Свободно и удобно. Главное заранее бронировать место, а то в
+              прошлый раз мы не
+              успели свои
+              любимые места забить.
+              В остальном всё на пять баллов. Рекомендую!”</blockquote>
+          </figure>
+        </li>
+        <li class="reviews__item">
+          <figure class="reviews__wrap">
+            <img class="reviews__photo" src="./img/passengers/3.jpg" alt="фото пассажира" width="205" height="205">
+            <p class="reviews__author">Андрей, Фотограф и компьютерный дизайнер.</p>
+            <blockquote class="reviews__cite">“Пегас выручает. Гораздо быстрей чем на автобусе. Пожалуй
+              больше никогда на вонючем
+              автобусе не
+              поеду. Хватит с меня. Хорошо что есть Пегас-трансфер!”</blockquote>
+          </figure>
+        </li>
+        <li class="reviews__item">
+          <figure class="reviews__wrap">
+            <img class="reviews__photo" src="./img/passengers/4.jpg" alt="фото пассажира" width="205" height="205">
+            <p class="reviews__author">Святослав, Коллекционер миниатюр.</p>
+            <blockquote class="reviews__cite">“Передо мной стояла задача - довезти очень хрупкие
+              коллекционные фигурки в
+              Пятигорск. Очень
+              боялся, что в автобусе их сломают.
+              Воспользовался трансфером Пегас и всё прошло гладко. Рекомендую всем.”</blockquote>
+          </figure>
+        </li>
+        <li class="reviews__item">
+          <figure class="reviews__wrap">
+            <img class="reviews__photo" src="./img/passengers/5.jpg" alt="фото пассажира" width="205" height="205">
+            <p class="reviews__author">Женя, Предприниматель из г. Москва.</p>
+            <blockquote class="reviews__cite">“На дворе 21 век, а мы еще не летаем. Хотя когда мы ехали с
+              водителем по имени
+              Михаил - подумал
+              что летим! Он шустрый малый, и при этом было совсем не страшно.
+              Сразу видно - профессионал!”</blockquote>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
   </main>
   <footer class="footer">
-    <div class="wrapper">
-      <div class="container">
-      </div>
-    </div>
+    <figure class="footer__logo">
+      <img class="footer__logo-img" src="./img/logo/1.svg" alt="логотип компании" width="190" height="77">
+      <p class="footer__logo-decr">Комфортабельный трансфер Краснодар-Пятигорск-Краснодар</p>
+    </figure>
+
+    <p class="footer__proposal">При бронировании первой поездки через заявку на сайте мы Гарантируем скидку на
+      поездку</p>
+    <p class="footer__bonus">10% от общей стоимости!</p>
+
+    <h3 class="footer__title">Клиентам</h3>
+    <ul class="footer__menu-list">
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#">Полезные статьи</a></li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#">Все отзывы</a></li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#">О компании</a></li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#">Наши услуги</a></li>
+      <li class="footer__menu-item">
+        <a class="footer__menu-link" href="#">Часто задаваемые вопросы</a></li>
+    </ul>
+
+    <h3 class="footer__title">Контакты</h3>
+    <address class="footer__contacts">
+      <ul class="footer__contacts-list">
+        <li class="footer__contacts-item">Офис:<a class="footer__contacts-link" href="tel:89923572311">8 (992)
+            357-23-11</a></li>
+        <li class="footer__contacts-item">Директор:<a class="footer__contacts-link" href="tel:89181172155">8 (918)
+            117-21-55</a></li>
+      </ul>
+      <ul class="footer__contacts-list">
+        <li class="footer__contacts-item">Электропочта:<a class="footer__contacts-link"
+            href="mailto:info@pegas-transfer.ru">info@pegas-transfer.ru</a></li>
+      </ul>
+    </address>
+
+    <p class="footer__copy">© Code4web 2019 — 2022 Обучающие видео уроки и демонстрации по веб-разработке и
+      программированию. Любое
+      копирование материалов сайта без указания источника запрещена, согласно 4ч, раздел 7 Гражданского Кодекса
+      РФ.</p>
+
+    <ul class="footer__social-list">
+      <li class="footer__social-item">
+        <a class="footer__social-link" href="#">Viber</a>
+      </li>
+      <li class="footer__social-item">
+        <a class="footer__social-link" href="#">Whatsapp</a>
+      </li>
+      <li class="footer__social-item">
+        <a class="footer__social-link" href="#">Telegram</a>
+      </li>
+      <li class="footer__social-item">
+        <a class="footer__social-link" href="#">Instagram</a>
+      </li>
+    </ul>
   </footer>
-  <script></script>
-  <script src="js/main.js"></script>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
