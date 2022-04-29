@@ -61,3 +61,7 @@ W3C: https://www.w3.org/
 ## Про метатеги
 
 Какие бывают метатеги: https://canonium.com/articles/html-meta-tags/
+
+## Онлайн генераторы html-конструкций
+
+Генератор таблиц с возможностью их заполнения: https://iksweb.ru/tools/table/
